@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng kí</title>
+    <link rel="stylesheet" href="cuoikicss.css" />
+  </head>
+  <body>
+    <main class="registerpage">
+      <form class="registerform" id="registerForm">
+        <label>Tên đăng nhập:</label>
+        <input type="text" name="tendn" id="username" /><br />
+        <label>Email:</label><input type="email" name="mail" id="email" /><br />
+        <label>Ngày, tháng, năm sinh:</label
+        ><input type="date" name="ngaythang" id="birthdate" /><br />
+        <label>Giới tính:</label>
+        <label
+          ><input type="radio" name="gioitinh" value="nam" id="nam" />Nam</label
+        >
+        <label
+          ><input type="radio" name="gioitinh" value="nữ" id="nu" />Nữ</label
+        >
+        <label>Mật khẩu:</label
+        ><input type="password" name="matkhau" id="matkhau" /><br />
+        <label>Nhập lại mật khẩu:</label
+        ><input
+          type="password"
+          name="nhaplaimatkhau"
+          id="nhaplaimatkhau"
+        /><br />
+        <button type="submit">Đăng kí</button><br />
+        <p>Đã có tài khoản?<a href="dangnhap.html">Đăng nhập</a></p>
+      </form>
+    </main>
+    <script src="dangki.js"></script>
+  </body>
+</html>
