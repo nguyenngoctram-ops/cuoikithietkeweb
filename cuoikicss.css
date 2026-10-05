@@ -516,3 +516,135 @@ section > h1 {
     text-overflow: ellipsis;
   }
 }
+.gioithieu {
+  padding: 150px 20px 60px;
+  background: #111;
+  color: white;
+  text-align: center;
+  background-image: none;
+}
+.gioithieu h1 {
+  color: #ff70b5;
+  font-size: 32px;
+  margin-bottom: 35px;
+  text-shadow: 0 0 10px pink;
+}
+.thongtin {
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+  padding: 30px;
+  background: #000;
+  bg-height: 100%;
+  border: 2px solid #ff70b5;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 112, 181, 0.5);
+}
+
+.thongtin img {
+  width: 180px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid #ff70b5;
+  margin-bottom: 20px;
+}
+
+.thongtin h2 {
+  color: #ff70b5;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.thongtin p {
+  font-size: 18px;
+  margin: 12px 0;
+  line-height: 1.6;
+}
+.thongtin strong {
+  color: #ff70b5;
+}
+.form-section {
+  padding: 60px 20px;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+.form-section h1 {
+  color: #ff70b5;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-shadow: 0 0 10px pink;
+}
+#registerForm {
+  width: 450px;
+  max-width: 90%;
+  margin: auto;
+  padding: 30px;
+  background: #000;
+  border: 2px solid #ff70b5;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 112, 181, 0.5);
+  text-align: left;
+}
+#registerForm label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 7px;
+  color: white;
+  font-size: 16px;
+}
+#registerForm input[type="text"],
+#registerForm input[type="email"],
+#registerForm input[type="password"],
+#registerForm input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #111;
+  color: white;
+  border: 1px solid #ff70b5;
+  border-radius: 6px;
+  outline: none;
+}
+#registerForm input[type="text"]:focus,
+#registerForm input[type="email"]:focus,
+#registerForm input[type="password"]:focus,
+#registerForm input[type="date"]:focus {
+  border: 2px solid #ff70b5;
+  box-shadow: 0 0 8px pink;
+}
+#registerForm input[type="radio"] {
+  margin-right: 5px;
+  accent-color: #ff70b5;
+}
+#registerForm input[type="radio"] + label {
+  display: inline;
+  margin-right: 20px;
+}
+
+#registerForm button {
+  display: block;
+  margin: 30px auto 0;
+  padding: 12px 30px;
+  background: #ff70b5;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#registerForm button:hover {
+  background: #ff4fa3;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px pink;
+}
+#thongbao {
+  margin-top: 20px;
+  text-align: center;
+  color: #ff70b5;
+  font-size: 16px;
+  font-weight: bold;
+}
