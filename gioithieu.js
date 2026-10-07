@@ -8,6 +8,7 @@ let nu = document.getElementById("nu");
 let thongbao = document.getElementById("thongbao");
 form.addEventListener("submit", function (event) {
   event.preventDefault();
+  window.location.href = "cuoiki.html";
   if (hoten.value === "") {
     thongbao.textContent = "Vui lòng nhập họ tên!";
     return;
