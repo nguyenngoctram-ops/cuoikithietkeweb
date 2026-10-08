@@ -208,6 +208,8 @@ footer {
   height: 180px;
   border-radius: 8px;
   object-fit: cover;
+  animation: xoay 4s linear infinite;
+  perspective: 1000px;
 }
 .weapons h2 {
   color: pink;
@@ -257,6 +259,8 @@ footer {
   height: 180px;
   border-radius: 8px;
   object-fit: cover;
+  animation: xoayphuongtien 4s linear infinite;
+  perspective: 1000px;
 }
 .roadtransport h2,
 .watercraft h2,
@@ -382,16 +386,18 @@ section > h1 {
   box-shadow: 0 0 15px pink;
 }
 .registerpage {
+  background-image: none !important;
+  background-color: #d0d0d0;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .registerform {
-  background-color: #151515;
+  background-color: rgb(137, 118, 118);
   color: white;
-  padding: 20px;
-  width: 450px;
+  padding: 30px;
+  width: 550px;
   border: 2px solid pink;
   border-radius: 8px;
   box-shadow: #ff4fa3;
@@ -429,6 +435,7 @@ section > h1 {
   color: #dddddd;
 }
 .loginpage {
+  background-image: none !important;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -438,8 +445,8 @@ section > h1 {
   border: 3px solid pink;
   background-color: rgb(145, 123, 136);
   color: white;
-  width: 400px;
-  padding: 20px;
+  width: 550px;
+  padding: 30px;
   font-size: 24px;
 }
 .loginform input {
@@ -516,6 +523,23 @@ section > h1 {
     text-overflow: ellipsis;
   }
 }
+@keyframes xoay {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes xoayphuongtien {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
 .gioithieu {
   padding: 150px 20px 60px;
   background: #111;
@@ -535,7 +559,7 @@ section > h1 {
   margin: auto;
   padding: 30px;
   background: #000;
-  bg-height: 100%;
+  background-height: 100%;
   border: 2px solid #ff70b5;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(255, 112, 181, 0.5);
@@ -648,7 +672,6 @@ section > h1 {
   font-size: 16px;
   font-weight: bold;
 }
-a{
-  font-size:20px;
-
+a {
+  font-size: 20px;
 }
